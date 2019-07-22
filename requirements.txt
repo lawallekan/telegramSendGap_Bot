@@ -1,0 +1,15 @@
+certifi==2019.6.16
+ffmpeg==1.4
+idna==2.8
+imageio==2.5.0
+imageio-ffmpeg==0.3.0
+moviepy==1.0.0
+Pillow==6.0.0
+proglog==0.1.9
+pyaes==1.6.1
+Pyrogram==0.14.1
+PySocks==1.7.0
+requests==2.22.0
+TgCrypto==1.2.0
+tqdm==4.32.2
+urllib3==1.25.3
