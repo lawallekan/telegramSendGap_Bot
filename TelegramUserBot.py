@@ -50,7 +50,7 @@ def DownloadManager(File_id, file_type=None, user_id=None, app=None, msg_id=None
             File_path = app.download_media(File_id)
         print("-+-Dowmloaded-+-")
         ## Gap Start
-        botgap = gappy.Bot("Your_Gap_Token")  ## sBot
+        botgap = gappy.Bot("Your_Gap_Bot_Token")        # Enter Your Gap Bot Token
         if caption != None:
             # captions = caption+"\n🆔: {}".format(gap_id())+"\n {}".format(SenderName)
             captions = caption + "\n {}".format(SenderName)
