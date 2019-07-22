@@ -37,6 +37,8 @@ def gap_id():
 
 def DownloadManager(File_id, file_type=None, user_id=None, app=None, msg_id=None, caption=None, FileName=None,
                     SenderName=None):
+    if not os.path.isdir('downloads'):
+        os.mkdir('downloads')
     File_path = None
     try:
         # time.sleep(50)
