@@ -4,7 +4,7 @@ import threading, gappy, os
 
 app = Client("my_account",
              api_id=123456,  # Enter Your Api ID
-             api_hash="0123456789abcdef0123456789abcdef",  # Enter Your Api Hash
+             api_hash= Default API HASH
              app_version="BETA",
              device_model="Desktop (Windows 10 x64)",
              system_version="Windows NT 6.1 (10), arch x64",
